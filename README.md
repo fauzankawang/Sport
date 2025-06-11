@@ -1,33 +1,25 @@
+Sports Explorer App: Ringkasan Fitur
+Aplikasi Android komprehensif yang dirancang untuk membantu pengguna menemukan, melacak, dan mengelola olahraga favorit mereka dengan memanfaatkan data dari TheSportsDB API.
 
-Aplikasi Android komprehensif yang membantu pengguna menemukan dan melacak olahraga favorit mereka menggunakan TheSportsDB API.
+1. Fitur Utama & Fungsionalitas
+Eksplorasi Olahraga:
 
-## Fitur
+Menampilkan daftar lengkap berbagai cabang olahraga yang tersedia dari API.
+Menyediakan halaman detail untuk setiap olahraga, menampilkan informasi mendalam seperti deskripsi, format, dan gambar.
+Manajemen Favorit:
 
-### Fungsi Utama
-- Jelajahi dan cari berbagai jenis olahraga
-- Lihat informasi detail tentang setiap olahraga  
-- Tandai olahraga favorit untuk akses cepat
-- Tarik untuk menyegarkan konten terbaru
-- Antarmuka pengguna yang bersih dan intuitif
+Memungkinkan pengguna untuk menandai (menambahkan) olahraga apa pun sebagai "favorit".
+Memungkinkan pengguna untuk menghapus olahraga dari daftar favorit mereka.
+Menyimpan data favorit secara lokal di perangkat, sehingga pilihan pengguna tetap tersimpan bahkan setelah aplikasi ditutup dan dibuka kembali.
+2. Navigasi & Antarmuka Pengguna (UI/UX)
+Struktur Navigasi:
 
-### Navigasi & UI
-- Navigasi bawah dengan tab Beranda, Favorit, dan Pengaturan
-- Komponen Material Design dan animasi
-- Tata letak responsif yang menyesuaikan berbagai ukuran layar
-- Dukungan tema terang dan gelap 
-- SwipeRefreshLayout untuk pembaruan konten
+Menggunakan Bottom Navigation sebagai navigasi utama, mempermudah perpindahan antara dua bagian utama aplikasi:
+Tab Home: Menampilkan daftar semua olahraga.
+Tab Favorite: Menampilkan daftar olahraga yang sudah ditandai sebagai favorit.
+Komponen Desain & Tampilan:
 
-### Manajemen Data
-- Penyimpanan lokal menggunakan Room Database
-- Pengambilan data jarak jauh dengan Retrofit
-- Kemampuan offline untuk olahraga favorit
-- Sinkronisasi data yang efisien
-
-## Detail Teknis
-
-### Komponen Arsitektur
-- Arsitektur MVVM (Model-View-ViewModel)
-- LiveData untuk observable data holder
-- ViewBinding untuk akses view
-- Room untuk database lokal
-- Retrofit untuk komunikasi API
+3. Manajemen Data
+   
+Penyimpanan lokal dengan Room Database
+Pengambilan data dari TheSportsDB API
